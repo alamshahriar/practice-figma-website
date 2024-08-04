@@ -490,7 +490,7 @@ nav li a {
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
-    gap: 24;
+    gap: 24px;
 }
 
 /* responsive media query */
