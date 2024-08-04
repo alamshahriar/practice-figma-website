@@ -194,7 +194,6 @@ nav li a {
     border-top: #E74040;
     padding-top: 20px;
     padding-bottom: 20px;
-    /* border-bottom: 2px solid #E74040; */
     position: relative;
 }
 
@@ -244,6 +243,256 @@ nav li a {
     padding-left: 144px;
 }
 
+.practice {
+    margin-top: 160px;
+}
+
+.advice-tittle {
+    color: #252B42;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.advice-description {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 463px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 96px;
+}
+
+.sale-info {
+    padding-bottom: 24px;
+}
+
+.sale-list {
+    display: flex;
+    gap: 10px;
+    /* max-width: 209px;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+}
+
+.sale-icon-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url("../image/product-cover-233\ sec-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 209px;
+}
+
+.sale-icon {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url("../image/product-cover-232\ sec-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 209px;
+}
+
+
+.sale-tittle {
+    color: #e4e4e4;
+    font-size: 14px;
+    font-weight: bold;
+    background: #E74040;
+    max-width: 52px;
+    height: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.diffarent-icon {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+.fa-regular,
+.fa-heart,
+.fa-solid,
+.fa-cart-shopping {
+    background: #FFFFFF;
+    border-radius: 44.79px;
+    max-width: 40px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.common-tittle,
+.tittle {
+    padding-top: 25px;
+}
+
+.courses-tittle {
+    color: #252B42;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.courses-description {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    max-width: 242px;
+}
+
+.down {
+    color: #737373;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.price-list {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+
+.price-icon {
+    color: #FFAB71;
+}
+
+.learning-btn {
+    color: #96BB7C;
+    background: #FFFFFF;
+    border: 1px solid #96BB7C;
+    border-radius: 37px;
+    padding: 10px 20px 10px;
+    padding-top: 10px;
+}
+
+.watch {
+    margin-top: 160px;
+}
+
+.watch-tittle {
+    color: #252B42;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.watch-description {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 463px;
+}
+
+.help {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 96px;
+    text-align: center;
+}
+
+.img-description {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 320px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.star-icon {
+    color: #F3CD03;
+    margin-top: 15px;
+}
+
+.img-tittle {
+    color: #252B42;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.skill-tittle {
+    color: #737373;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.quality {
+    margin-top: 160px;
+}
+
+.quality-tittle {
+    color: #252B42;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quality-description {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 463px;
+}
+
+.person-work {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 126px;
+    gap: 24px;
+}
+
+.user {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.person-img {
+    box-shadow: 0px 10px #e4e4e4;
+    border-radius: 20px;
+}
+
+.try {
+    text-align: center;
+}
+
+.person-tittle {
+    color: #252B42;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.person-img-tittle {
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 400px;
+    padding-bottom: 10px;
+}
+
+.kind-of-icon {
+    color: #96BB7C;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 24;
+}
+
 /* responsive media query */
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -257,13 +506,18 @@ nav li a {
         flex-direction: column;
     }
 
-    .learning {
+    .learning,
+    .help,
+    .person-work {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .hero,
     .Packages,
-    .video {
+    .video,
+    .advice,
+    .our,
+    .education {
         text-align: center;
     }
 
@@ -303,6 +557,14 @@ nav li a {
         padding-top: 20px;
     }
 
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sale-list {
+        margin-top: 10px;
+    }
+
     img {
         max-width: 100%;
     }
@@ -320,7 +582,10 @@ nav li a {
         padding-left: 10px;
     }
 
-    .Packages {
+    .Packages,
+    .advice,
+    .our,
+    .education {
         padding-left: 10px;
     }
 
