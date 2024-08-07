@@ -324,7 +324,6 @@ nav li a {
 .fa-heart,
 .fa-solid,
 .fa-cart-shopping {
-    background: #FFFFFF;
     border-radius: 44.79px;
     max-width: 40px;
     padding: 10px;
@@ -411,6 +410,43 @@ nav li a {
     padding-top: 30px;
 }
 
+.small-tittle {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.time {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 10px;
+}
+
+.time-tittle {
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.small {
+    display: flex;
+    gap: 40px;
+    padding-top: 25px;
+}
+
+
+.small-btn {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    background: #2D4059;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 5px 5px 26px;
+    max-width: 50px;
+    height: 26px;
+    margin-top: 25px;
+}
+
 .star-icon {
     color: #F3CD03;
     margin-top: 15px;
@@ -493,6 +529,91 @@ nav li a {
     gap: 24px;
 }
 
+.resolve {
+    background-color: #FFF2F3;
+    text-align: center;
+    margin-top: 160px;
+    padding-top: 160px;
+}
+
+.resolve-tittle {
+    color: #252B42;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.resolve-description {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 463px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+input[type="email"] {
+    border: #FFFFFF;
+    border-radius: 5px;
+    max-width: 688px;
+    padding: 22px;
+    padding-left: 10px;
+    margin-bottom: 160px;
+}
+
+.second-btn {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 22px;
+    background: #96BB7C;
+    border: none;
+    border-radius: 3px;
+    margin-left: 0;
+}
+
+.company-info {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.information li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF2F3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer {
+    background: #FFF2F3;
+    margin-top: 10px;
+}
+
+.last-section-tittle {
+    color: #737373;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon-logo {
+    display: flex;
+    gap: 20px;
+    color: #96BB7C;
+}
+
 /* responsive media query */
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -502,13 +623,15 @@ nav li a {
     .info,
     .ul-list,
     .item-info,
-    .action {
+    .action,
+    .last-section {
         flex-direction: column;
     }
 
     .learning,
     .help,
-    .person-work {
+    .person-work,
+    .company-info {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -517,8 +640,14 @@ nav li a {
     .video,
     .advice,
     .our,
-    .education {
+    .education,
+    .company-info,
+    .last-section {
         text-align: center;
+    }
+
+    .last-section {
+        align-items: center;
     }
 
     .hero-description,
@@ -569,6 +698,14 @@ nav li a {
         max-width: 100%;
     }
 
+    .resolve-description {
+        padding-bottom: 30px;
+    }
+
+    .input[type="email"] {
+        margin-bottom: 90px;
+        padding: 22px;
+    }
 }
 
 /* tablet or medium devices */
@@ -585,7 +722,8 @@ nav li a {
     .Packages,
     .advice,
     .our,
-    .education {
+    .education,
+    .company-info {
         padding-left: 10px;
     }
 
@@ -601,5 +739,18 @@ nav li a {
 
     .package-tittle::before {
         height: 4px;
+    }
+
+    .company-info {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .last-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-logo {
+        padding-top: 15px;
     }
 }
